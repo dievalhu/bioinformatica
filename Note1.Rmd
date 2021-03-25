@@ -1,0 +1,28 @@
+---
+title: "Muestreo Estadistico"
+output: html_notebook
+---
+
+Muestreo estadistico mediante R:
+
+```{r}
+edad = c(35, 37, 49, 40, 31, 33, 36, 44)
+print(edad)
+```
+
+Tomo una muestra de 5 valores en el rango de 1 a 10:
+
+
+```{r}
+j = sample(1:10,5)
+print(j)
+```
+Graficar las edades:
+
+```{r}
+plot(edad, edad)
+```
+
+
+
+
